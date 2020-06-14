@@ -71,10 +71,16 @@ li {
     }
     
     .menu-header {
-        visibility: hidden;
+        float: left;
     }
-}
-
+    .menu-header li {
+        display: block;
+    }
+    
+    .menu-header a {
+        font-size: 1.125em;
+    }
+    
 /* intro */
 
 .intro {
@@ -250,8 +256,12 @@ a.btn-projetos {
     }
     
     .projetos h2 {
-        font-size: 2.25em;
+        font-size: 2em;
     }
+    
+    a.projetos-info {
+        font-size: 0.875em;
+        }
     
     .projetos h2::after {
         width: 150px; 
@@ -395,6 +405,9 @@ a.btn-projetos {
     
     .contato h2 {
         font-size: 2em;
+        }
+    .contato p {
+        font-size: 1.125em;
         }
 
     .redes-sociais {
