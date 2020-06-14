@@ -392,11 +392,18 @@ a.btn-projetos {
     .contato-container {
         max-width: 300px;
     }
+    
+    .contato h2 {
+        font-size: 2em;
+        }
 
     .redes-sociais {
         flex-direction: column;
         margin: 40px auto 0 auto;
     }
+    .redes-sociais a {
+        font-size: 1em;
+        }
     
     .facebook {
         margin-right: 0px;
