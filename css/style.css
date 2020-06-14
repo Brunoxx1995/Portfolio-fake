@@ -251,7 +251,7 @@ a.btn-projetos {
     }
     
     .projetos h2::after {
-        width: 300px; 
+        width: 100%; 
 }
 
 }
