@@ -156,7 +156,7 @@ li {
 
 
 .projetos-item {
-    width: 100%;
+
     max-width: 409px;
     margin-right: 10px;
     margin-left: 10px;
@@ -239,11 +239,14 @@ a.btn-projetos {
 
 
 @media (max-width: 739px) {
-
+    .projetos-container {
+        max-width: 300px;
+        margin 0 auto;
+       }
 
     .projetos-item {
         float: none;
-        margin: 0 auto;
+        margin: 20px auto 0 auto;
     }
     
     .projetos h2 {
@@ -251,7 +254,7 @@ a.btn-projetos {
     }
     
     .projetos h2::after {
-        width: 100%; 
+        width: 150px; 
 }
 
 }
