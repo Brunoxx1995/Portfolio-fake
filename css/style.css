@@ -67,19 +67,13 @@ li {
 
 @media (max-width: 739px) {
     .menu {
-        padding: 0;
+        padding: 20px 0;
     }
     
     .menu-header {
-        float: right;
+        display: none;
     }
-    .menu-header li {
-        display: block;
-    }
-    
-    .menu-header a {
-        font-size: 1.125em;
-    }
+}
     
 /* intro */
 
@@ -245,13 +239,18 @@ a.btn-projetos {
 
 
 @media (max-width: 739px) {
+    
+    .projetos {
+        padding: 60px 0 40px 0;    
+    }
+    
     .projetos-container {
-        max-width: 300px;
-        margin 0 auto;
+        margin-left: 10px;
+        margin-right: 10px;
        }
 
     .projetos-item {
-        width: 280px;
+        width: 100%;
         float: none;
         margin: 20px auto 0 auto;
     }
@@ -397,12 +396,9 @@ a.btn-projetos {
 @media (max-width: 739px) {
     
     .contato {
-        padding: 100px 0;
+        padding: 60px 0;
     }
-       
-    .contato-container {
-        max-width: 300px;
-    }
+    
     
     .contato h2 {
         font-size: 2em;
@@ -477,6 +473,11 @@ a.btn-projetos {
 }
 
 @media (max-width: 739px) {
+    
+    .footer {
+        padding:0;    
+    }
+    
     .footer-container {
         max-width: 300px;
         justify-content: center;
