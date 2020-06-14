@@ -103,7 +103,7 @@ li {
 
 @media (max-width: 739px) {
     .intro {
-        padding: 150px 0;
+        padding: 200px 0;
     }   
     
     .intro h1 {
@@ -251,7 +251,7 @@ a.btn-projetos {
     }
     
     .projetos h2::after {
-        width: 409px; 
+        width: 300px; 
 }
 
 }
